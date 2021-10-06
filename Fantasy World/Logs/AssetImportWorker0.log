@@ -171,3 +171,109 @@ Received Import Request.
 Start importing Assets/Player Material.mat using Guid(dbb948359e8e89c41a47c20ac8e804b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc612e3677164decc4ee3241ddb39a0c') in 0.020674 seconds 
   Import took 0.024926 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1200ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (541ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (452ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.7 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2091.
+Total: 2.960600 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.044100 ms MarkObjects: 2.590700 ms  DeleteObjects: 0.128400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 958.868473 seconds.
+  path: Assets/Room.unity
+  artifactKey: Guid(7d48cf67e30ac9243941b4d3762d563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room.unity using Guid(7d48cf67e30ac9243941b4d3762d563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a626e3c13f82b7e3f7c02f09e141775') in 0.024163 seconds 
+  Import took 0.027686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003132 seconds.
+  path: Assets/Room.unity
+  artifactKey: Guid(7d48cf67e30ac9243941b4d3762d563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room.unity using Guid(7d48cf67e30ac9243941b4d3762d563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a626e3c13f82b7e3f7c02f09e141775') in 0.003049 seconds 
+  Import took 0.008659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.554474 seconds.
+  path: Assets/World1.unity
+  artifactKey: Guid(c84b6975c916bee49ad734553779fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World1.unity using Guid(c84b6975c916bee49ad734553779fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df9adcb3b930c26bef4df515f067559') in 0.009423 seconds 
+  Import took 0.013179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.434267 seconds.
+  path: Assets/FurnishedCabin/Prefabs/First Person Player.prefab
+  artifactKey: Guid(c12c7b87a7867b94bbd89797689f92d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/First Person Player.prefab using Guid(c12c7b87a7867b94bbd89797689f92d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217468b99c1b3f34c52adbe3e39afaae') in 0.052874 seconds 
+  Import took 0.055560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.629989 seconds.
+  path: Assets/Fantasy World!.unity
+  artifactKey: Guid(c84b6975c916bee49ad734553779fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy World!.unity using Guid(c84b6975c916bee49ad734553779fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb4b1653f4847dc381ab402f0bdb71d') in 0.007713 seconds 
+  Import took 0.011772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.364108 seconds.
+  path: Packages/com.unity.terrain-tools/Editor/TerrainToolbox/Materials/TerrainVisualization.mat
+  artifactKey: Guid(05b9a38dd90fbaa4aa4bacef38c03e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.terrain-tools/Editor/TerrainToolbox/Materials/TerrainVisualization.mat using Guid(05b9a38dd90fbaa4aa4bacef38c03e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c153650fc698bac68b54188a49465fdb') in 0.035276 seconds 
+  Import took 0.038291 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
