@@ -4,11 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Fantasy World!.unity
-    guid: c84b6975c916bee49ad734553779fad5
-  - enabled: 1
-    path: Assets/Scenes/Room.unity
-    guid: 7d48cf67e30ac9243941b4d3762d563d
+  m_Scenes: []
   m_configObjects: {}
