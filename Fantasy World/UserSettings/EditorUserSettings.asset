@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
+<<<<<<< HEAD
       value: 2242470311464675040d09623d224b15041e19263f6816312e225d61adc52c39eff73aeca7093c393707af7144090936e60f4927ff0c021f5f1bf30705e6
       flags: 0
     RecentlyUsedScenePath-1:
@@ -22,11 +23,30 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-5:
       value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
+=======
+      value: 2242470311464603264e3f29092150085627192927680022282c5216fae13928eee276dae43f31392a4dfc371d735471e704001fef
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 2242470311464603264e3f29092150085627192927680022282c5216fae13928eee276dae43f31392a4dfc371d735871e704001fef
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 2242470311464603264e3f29092150085627192927680022282c5216fae13928eee276dae43f31392a4dfc371d735971e704001fef
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 2242470311464603264e3f29092150085627192927680022282c5216fae13928eee276dae43f31392a4dfc371d735271e704001fef
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 2242470311464603264e3f29092150085627192927680022282c5216fae13928eee276dae43f31392a4dfc371d735571e704001fef
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c6d1f191a563f22213229
+>>>>>>> Fantasy-terrain-change
       flags: 0
     RecentlyUsedScenePath-6:
       value: 22424703114646680e0b0227036c7911180319393568113f3f251972acf53a31f6fe
       flags: 0
     RecentlyUsedScenePath-7:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c7911180319393568113f3f251973c8e12735ebed38a7f234362820
       flags: 0
     RecentlyUsedScenePath-8:
@@ -34,6 +54,15 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-9:
       value: 22424703114646680e0b0227036c6d1f191a563f22213229
+=======
+      value: 224247031146467d1f0b09060222581f180457192f2d2835620d0f32e5ef3a0bedf23acce62e3a2e1132a1290a371526
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 224247031146467d1f0b09060222581f180457192f2d2835620d0f32e5ef3a1aede624d9c5087129370bfb25
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 224247031146467d1f0b09060222581f180457192f2d2835620d0f32e5ef3a0bedf23acce62e3a2e0920dd721130082beb
+>>>>>>> Fantasy-terrain-change
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
