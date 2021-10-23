@@ -5,9 +5,13 @@ public class DoorInteractor : MonoBehaviour
 {
 
     // Sets a Max Distance the door can be seen from.
-    float maxDistance = 4;
+    float maxDistance = 1;
     static public bool hitDoor = false;
     // Allows the Door Script to know if it's being Looked at right now
+    private Animation DoorOpen;
+    private Animation DoorClose;
+    public AnimationClip openingDoor;
+    public AnimationClip closingDoor;
 
     void FixedUpdate()
     {
@@ -22,12 +26,23 @@ public class DoorInteractor : MonoBehaviour
 
             //if (Input.GetKeyDown(KeyCode.Space))
             //{
-            hitDoor = true;
-            //}
-        }
+            OpenDoor();
+                //}
+            }
         else
         {
-            hitDoor = false;
+            CloseDoor();
         }
+    }
+
+    public void OpenDoor()
+    {
+        //DoorOpen.Play(openingDoor.name);
+        hitDoor = true;
+    }
+    public void CloseDoor()
+    {
+        //DoorClose.Play(closingDoor.name);
+        hitDoor = false;
     }
 }
