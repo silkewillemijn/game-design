@@ -25,6 +25,7 @@ public class DaughterMovement : MonoBehaviour
         //if player is at certain distance of girl, the trigger will be activated
         if (distance < 10) {
             animator.SetTrigger("closeEnough");
+            FindObjectOfType<AudioManager>().Play("GirlVoiceOne");
         }
     }
 }
