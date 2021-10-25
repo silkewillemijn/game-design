@@ -880,3 +880,128 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+The file 'UserSettings/EditorUserSettings.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
+Trying to reload asset but can't find object on disk
+Registering precompiled user dll's ...
+Registered in 0.006512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1699ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1423ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (736ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 2': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2178 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.9 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 6.772000 ms (FindLiveObjects: 0.302700 ms CreateObjectMapping: 0.119300 ms MarkObjects: 2.772900 ms  DeleteObjects: 3.576000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1342.045953 seconds.
+  path: Assets/AGIA_anime_girl Variant.prefab
+  artifactKey: Guid(be226f24b571dc6418f8554b1bac28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGIA_anime_girl Variant.prefab using Guid(be226f24b571dc6418f8554b1bac28e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3940d933c9d2432ea4ee881c207189') in 0.309819 seconds 
+  Import took 0.316664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(b7cf5829ebffb1a41a6e80d95510c0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(b7cf5829ebffb1a41a6e80d95510c0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Bush5 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'd82cab3ad00532d786d2a7624c0e5b39') in 0.091631 seconds 
+  Import took 0.097370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Window.prefab
+  artifactKey: Guid(c206824f6de087f4180a5e68fc62511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Window.prefab using Guid(c206824f6de087f4180a5e68fc62511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03034c87519a7cea15f0c50db094221') in 0.028469 seconds 
+  Import took 0.032603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Orange light.mat
+  artifactKey: Guid(b3424abad921d7143acd71d4580082b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Orange light.mat using Guid(b3424abad921d7143acd71d4580082b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204ee3e09aa5657e7c8cb9bc05843a81') in 0.057540 seconds 
+  Import took 0.062537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.703145 seconds.
+  path: Assets/Scenes/Room.unity
+  artifactKey: Guid(7d48cf67e30ac9243941b4d3762d563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Room.unity using Guid(7d48cf67e30ac9243941b4d3762d563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35722292f057f2159d4af2ed8ef15c0') in 0.013504 seconds 
+  Import took 0.020481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.421348 seconds.
+  path: Assets/Scenes/Fantasy World!.unity
+  artifactKey: Guid(c84b6975c916bee49ad734553779fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fantasy World!.unity using Guid(c84b6975c916bee49ad734553779fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1ea1cebf0df3e2b8448c4582e78dec') in 0.012633 seconds 
+  Import took 0.016966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.896128 seconds.
+  path: Assets/Scenes/SwimDemo2.0.unity
+  artifactKey: Guid(92375754b801c0e4ca719b7c358734d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SwimDemo2.0.unity using Guid(92375754b801c0e4ca719b7c358734d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf58920eee2088ce44b8ff829c1147e0') in 0.012941 seconds 
+  Import took 0.017422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: Assets/Scenes/SwimDemo2.0.unity
+  artifactKey: Guid(92375754b801c0e4ca719b7c358734d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SwimDemo2.0.unity using Guid(92375754b801c0e4ca719b7c358734d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf58920eee2088ce44b8ff829c1147e0') in 0.016786 seconds 
+  Import took 0.021811 seconds .
+
