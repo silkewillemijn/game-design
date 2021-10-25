@@ -7,6 +7,8 @@ public class DaughterMovement : MonoBehaviour
     Animator animator;
     GameObject girl;
     GameObject player;
+    bool isTalking = false;
+    public AudioSource playVoice1;
     
     // Start is called before the first frame update
     void Start()
@@ -23,9 +25,14 @@ public class DaughterMovement : MonoBehaviour
         //Debug.Log(distance);
 
         //if player is at certain distance of girl, the trigger will be activated
-        if (distance < 10) {
+        if (distance < 10 && !isTalking) {
             animator.SetTrigger("closeEnough");
-            FindObjectOfType<AudioManager>().Play("GirlVoiceOne");
+            // FindObjectOfType<AudioManager>().Play("GirlVoiceOne");
+            // isTalking = true;
         }
+
+        // if (distance > 10) { // best is to look at state of audio: it will currently start playing again when you walk back and forth
+        //     isTalking = false;
+        // }
     }
 }
