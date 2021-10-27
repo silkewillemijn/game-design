@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 8071 MB
+OS: 'Windows 10 Enterprise; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 8067 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/20182838/Documents/20182838/School stuff/Year 4/Q1 Design for Games & Play/game-design/Fantasy World
+C:/Users/20182377/Documents/GitHub/game-design/Fantasy World
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65245
-Successfully changed project path to: C:/Users/20182838/Documents/20182838/School stuff/Year 4/Q1 Design for Games & Play/game-design/Fantasy World
-C:/Users/20182838/Documents/20182838/School stuff/Year 4/Q1 Design for Games & Play/game-design/Fantasy World
+58694
+Successfully changed project path to: C:/Users/20182377/Documents/GitHub/game-design/Fantasy World
+C:/Users/20182377/Documents/GitHub/game-design/Fantasy World
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 274.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/20182838/Documents/20182838/School stuff/Year 4/Q1 Design for Games & Play/game-design/Fantasy World/Assets
+[Subsystems] Discovering subsystems at path C:/Users/20182377/Documents/GitHub/game-design/Fantasy World/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011358 seconds.
+Registered in 0.002832 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 194.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 117.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.840 seconds
+- Completed reload, in  1.574 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6841ms)
-		BeginReloadAssembly (209ms)
+	ReloadAssembly (1574ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1587ms)
-			LoadAssemblies (202ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (600ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (523ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (668ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (292ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (195ms)
-				BeforeProcessingInitializeOnLoad (32ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (101ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013449 seconds.
+Registered in 0.004837 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 210.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 91.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.274 seconds
+- Completed reload, in  2.123 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4276ms)
-		BeginReloadAssembly (421ms)
+	ReloadAssembly (2124ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (3658ms)
-			LoadAssemblies (270ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1847ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (913ms)
+			SetupTypeCache (404ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (143ms)
-			SetupLoadedEditorAssemblies (1978ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (1019ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (210ms)
-				BeforeProcessingInitializeOnLoad (201ms)
-				ProcessInitializeOnLoadAttributes (1524ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (775ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2278 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.6 MB.
-System memory in use after: 153.3 MB.
+System memory in use before: 152.8 MB.
+System memory in use after: 152.5 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2763.
-Total: 5.603400 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.144000 ms MarkObjects: 4.478500 ms  DeleteObjects: 0.635600 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2757.
+Total: 4.864900 ms (FindLiveObjects: 0.344700 ms CreateObjectMapping: 0.122700 ms MarkObjects: 3.844400 ms  DeleteObjects: 0.551400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,632 +134,301 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 9.wav
-  artifactKey: Guid(0a880a367b6ef4d939b1655cbf2deccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 9.wav using Guid(0a880a367b6ef4d939b1655cbf2deccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23eff69b822522a3c06df0482a435ce9') in 0.240512 seconds 
-  Import took 0.248884 seconds .
+  path: Assets/Poster 3.prefab
+  artifactKey: Guid(9f068273984558c40ba59a09eaafbc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Poster 3.prefab using Guid(9f068273984558c40ba59a09eaafbc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e077714223bbd775f9b9581d5e955c') in 0.083204 seconds 
+  Import took 0.088408 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 3.wav
-  artifactKey: Guid(2fafc0a0572094916b47ba98081760ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 3.wav using Guid(2fafc0a0572094916b47ba98081760ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ebec2c9fac4b091edbb98621d038bd') in 0.042814 seconds 
-  Import took 0.051721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 3.wav
-  artifactKey: Guid(5950a8a948fac4595b8b1750744fb22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 3.wav using Guid(5950a8a948fac4595b8b1750744fb22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6636b3224b5595ad2b40691feda9f7') in 0.040815 seconds 
-  Import took 0.052007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 17.wav
-  artifactKey: Guid(fd58014a1f9434e59b3ab2c4de9a09aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 17.wav using Guid(fd58014a1f9434e59b3ab2c4de9a09aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1699694e5bac3a21d18ae846e0db8a08') in 0.041542 seconds 
-  Import took 0.052405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/Epic Game Hits SFX/Quick Game Item Pick Up.wav
-  artifactKey: Guid(ad47ef8d0f4cc4ac4b3ef60e28a527b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Quick Game Item Pick Up.wav using Guid(ad47ef8d0f4cc4ac4b3ef60e28a527b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60c43f2cc2ecc0bf4e8f05ef62002c3') in 0.048176 seconds 
-  Import took 0.057864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001054 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 11.wav
-  artifactKey: Guid(f785d4578375544c88dcc15c4aa32aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 11.wav using Guid(f785d4578375544c88dcc15c4aa32aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599c652d22b3be6e56f16a41ec04d8a8') in 0.060092 seconds 
-  Import took 0.071371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000580 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 10.wav
-  artifactKey: Guid(652a2ddd108c74d9ca6f443a1bc21e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 10.wav using Guid(652a2ddd108c74d9ca6f443a1bc21e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4988accafb81b0354aebd18f5d5cd23') in 0.039424 seconds 
-  Import took 0.049755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 1.wav
-  artifactKey: Guid(8cbacfe055db94d6c8a9a6deebc96eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 1.wav using Guid(8cbacfe055db94d6c8a9a6deebc96eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1d95378a68e1a4a38aeba16dfe7087') in 0.038927 seconds 
-  Import took 0.048431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/Epic Game Hits SFX/Simulate TrophyOnWinner Impact.wav
-  artifactKey: Guid(20cb9da9b1e674c2dadbeff749c8fc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Simulate TrophyOnWinner Impact.wav using Guid(20cb9da9b1e674c2dadbeff749c8fc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21deaf257c99d7bc33b93d663d0e83f0') in 0.055649 seconds 
-  Import took 0.067473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/Epic Game Hits SFX/Animation Plant Pop Up2.wav
-  artifactKey: Guid(b2fb5786513f8413a81b165949ed28a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Animation Plant Pop Up2.wav using Guid(b2fb5786513f8413a81b165949ed28a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cac029d5e7e362a76286ab7ab8a144f') in 0.041740 seconds 
-  Import took 0.051619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 12.wav
-  artifactKey: Guid(2e6ebbf10077e4eb6aebd2161f67ffb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 12.wav using Guid(2e6ebbf10077e4eb6aebd2161f67ffb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fedc93810b97a9beb71274b93de3dc8') in 0.042714 seconds 
-  Import took 0.052511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 13.wav
-  artifactKey: Guid(58bb2ed36d4ae4791b190261b10827c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 13.wav using Guid(58bb2ed36d4ae4791b190261b10827c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f3ac8c99c00aa06a3dd7d4a7d49487') in 0.043254 seconds 
-  Import took 0.052026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 15.wav
-  artifactKey: Guid(341cee4e07fa9449885fc189ccdba475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 15.wav using Guid(341cee4e07fa9449885fc189ccdba475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f9cea259df0a0d2a69a27462b2049c') in 0.041219 seconds 
-  Import took 0.053686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/Epic Game Hits SFX/Quick Magic Game Item Pick Up.wav
-  artifactKey: Guid(560b59f7bba57425da9d11fb4794b676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Quick Magic Game Item Pick Up.wav using Guid(560b59f7bba57425da9d11fb4794b676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98370be28a86386364cc15c3f2dab6c7') in 0.037910 seconds 
-  Import took 0.048538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 3.wav
-  artifactKey: Guid(19b6db7ce7a924b6493eac4bf8acf69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 3.wav using Guid(19b6db7ce7a924b6493eac4bf8acf69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64647edcbc670370719b0d511d4140f') in 0.041474 seconds 
-  Import took 0.053984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001474 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 4.wav
-  artifactKey: Guid(e76c20b30d54f4050a459a896a42d83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 4.wav using Guid(e76c20b30d54f4050a459a896a42d83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c5f0712f5900ffa6f8de45836c6227') in 0.047639 seconds 
-  Import took 0.059614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 5.wav
-  artifactKey: Guid(04ac4b3437db843058ef7b7bfe73f8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 5.wav using Guid(04ac4b3437db843058ef7b7bfe73f8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4529f7713ed7b92ef50a28133e3e3c26') in 0.038591 seconds 
-  Import took 0.049392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 2.wav
-  artifactKey: Guid(baf532ce5c77941e1be77aab548f880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 2.wav using Guid(baf532ce5c77941e1be77aab548f880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa95c73564c5de0f6433b49a99d58e2') in 0.040433 seconds 
-  Import took 0.052027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 14.wav
-  artifactKey: Guid(f7466e5d45fb5487f9462c10e8e0ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 14.wav using Guid(f7466e5d45fb5487f9462c10e8e0ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d128f0087d481a93166154e952a0153') in 0.049199 seconds 
-  Import took 0.058009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001012 seconds.
-  path: Assets/Epic Game Hits SFX/Animation Block impact.wav
-  artifactKey: Guid(ced7c09d955e74b70a97af69106fb289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Animation Block impact.wav using Guid(ced7c09d955e74b70a97af69106fb289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430976a66282c9d5c7ef25958998d068') in 0.062616 seconds 
-  Import took 0.074101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/Epic Game Hits SFX/Random Game Sound.wav
-  artifactKey: Guid(36a64e44f82a445a7b8b7ae29a6be5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Random Game Sound.wav using Guid(36a64e44f82a445a7b8b7ae29a6be5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fa466de3a41a13a8ff0a8af6f15d03') in 0.057232 seconds 
-  Import took 0.066563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 3.wav
-  artifactKey: Guid(442236ed9689a411f93aa76b690d1e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 3.wav using Guid(442236ed9689a411f93aa76b690d1e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4227f8343f6a8a347e0eb885a60a067') in 0.042575 seconds 
-  Import took 0.052249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000832 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 9.wav
-  artifactKey: Guid(de6aeddb90537408a9a929daad5031bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 9.wav using Guid(de6aeddb90537408a9a929daad5031bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa766966dfd4ae4814b3e5950fa21a9') in 0.046699 seconds 
-  Import took 0.059639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 6.wav
-  artifactKey: Guid(6d50885b858cc4ab2988dff892c9135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 6.wav using Guid(6d50885b858cc4ab2988dff892c9135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166fce3c7cacda33f3cc405598de5b6d') in 0.046007 seconds 
-  Import took 0.056163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 6.wav
-  artifactKey: Guid(72ba85c415ad5437fa0a559a4ad9f36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 6.wav using Guid(72ba85c415ad5437fa0a559a4ad9f36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582c949a1dcc4f51b341667dcc02f5f6') in 0.044035 seconds 
-  Import took 0.055067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 2.wav
-  artifactKey: Guid(2db033a45ffa44b1e8e05ec8169e1838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 2.wav using Guid(2db033a45ffa44b1e8e05ec8169e1838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76457a8d870cd55930377cb6ee7475d') in 0.055109 seconds 
-  Import took 0.066271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/Epic Game Hits SFX/Candy Touch.wav
-  artifactKey: Guid(930437b21a852410595bc9db5173b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Candy Touch.wav using Guid(930437b21a852410595bc9db5173b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88909c897805b01424cceeca612fdf2') in 0.054929 seconds 
-  Import took 0.066734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 10.wav
-  artifactKey: Guid(79a21b90a6b4a404f86f80a514660c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 10.wav using Guid(79a21b90a6b4a404f86f80a514660c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bf2912959048341d8733369f9d2aa2') in 0.053226 seconds 
-  Import took 0.063436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000553 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 5.wav
-  artifactKey: Guid(ae458cd47a803493d8149cae1e489620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 5.wav using Guid(ae458cd47a803493d8149cae1e489620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f931ebb8064a78bd9ad147d45e3e625') in 0.054975 seconds 
-  Import took 0.067316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Epic Game Hits SFX/Change Weapon.wav
-  artifactKey: Guid(126a7914023294e2faf8108acc1e9a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Change Weapon.wav using Guid(126a7914023294e2faf8108acc1e9a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2746734b46431629b4db8b40388746') in 0.051435 seconds 
-  Import took 0.062060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000799 seconds.
-  path: Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 1v2.wav
-  artifactKey: Guid(c8e80709a04234524b8946846c5db217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 1v2.wav using Guid(c8e80709a04234524b8946846c5db217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408a9668e032d6727e2b32c7951165aa') in 0.056048 seconds 
-  Import took 0.066625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000732 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 1.wav
-  artifactKey: Guid(ec8b674ec6c21450d9008ef9a5606d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 1.wav using Guid(ec8b674ec6c21450d9008ef9a5606d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b198b47b2b20bccb370c9cddbd63a46') in 0.054379 seconds 
-  Import took 0.065373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Epic Game Hits SFX/Animation Block impact2.wav
-  artifactKey: Guid(dfca84dc04e1f48c08e3a081991483b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Animation Block impact2.wav using Guid(dfca84dc04e1f48c08e3a081991483b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b00e1a50a4699cdefa0784c7f036729') in 0.058165 seconds 
-  Import took 0.068156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000511 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy1.wav
-  artifactKey: Guid(806b3206fbe14478a85da553f4920da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy1.wav using Guid(806b3206fbe14478a85da553f4920da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f128f815b21bab3ffbfef2bcb62fdf24') in 0.063090 seconds 
-  Import took 0.072904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 10.wav
-  artifactKey: Guid(18630f0d55fa44ed8896189fca2fb705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 10.wav using Guid(18630f0d55fa44ed8896189fca2fb705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fa0ed465e2b8e82bcda9cec3d2993c') in 0.061011 seconds 
-  Import took 0.071337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/Epic Game Hits SFX/Sweet Tech Game Item Pick Up Sound.wav
-  artifactKey: Guid(19cb450886b924bb7bb0946c18df05f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Sweet Tech Game Item Pick Up Sound.wav using Guid(19cb450886b924bb7bb0946c18df05f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b95f8b7cf9a94c9b53a372210104f8e') in 0.055402 seconds 
-  Import took 0.067241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000562 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy3.wav
-  artifactKey: Guid(8ecf78a942a6442889efd53fe4b371d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy3.wav using Guid(8ecf78a942a6442889efd53fe4b371d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f1121cca5556928f3787852dfa0621') in 0.053879 seconds 
-  Import took 0.065988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000613 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 8.wav
-  artifactKey: Guid(d72bbd7c1f55a4f39af3eedf887482c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 8.wav using Guid(d72bbd7c1f55a4f39af3eedf887482c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6b97de09c5bc1bb680987dd241a568') in 0.050069 seconds 
-  Import took 0.063317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 4.wav
-  artifactKey: Guid(ef20e0c97d6a04ed9b2ef1350c7ea03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 4.wav using Guid(ef20e0c97d6a04ed9b2ef1350c7ea03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387089f2faa599ede1912ce4482f5f96') in 0.054590 seconds 
-  Import took 0.068822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000704 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 7.wav
-  artifactKey: Guid(8ab1140fd9a9540e49bc349f4a53780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 7.wav using Guid(8ab1140fd9a9540e49bc349f4a53780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01ccc7197c9fc1582a6775555c3009a') in 0.052188 seconds 
-  Import took 0.067174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006010 seconds.
-  path: Assets/Epic Game Hits SFX/Organice Ice Next Page Slide Transition 1.wav
-  artifactKey: Guid(b8ef85913fa7d43ac81d6ffc464fc738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Organice Ice Next Page Slide Transition 1.wav using Guid(b8ef85913fa7d43ac81d6ffc464fc738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766411e80d1803b7acf70d451ec4a3e9') in 0.049328 seconds 
-  Import took 0.058465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000617 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 4.wav
-  artifactKey: Guid(6937cd5b5e4dc499f994890ed832259b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 4.wav using Guid(6937cd5b5e4dc499f994890ed832259b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54283003c423e75512ec80a7b841cdab') in 0.060422 seconds 
-  Import took 0.070849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 2.wav
-  artifactKey: Guid(e671c2ecbbd5240428f55ba1820d7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 2.wav using Guid(e671c2ecbbd5240428f55ba1820d7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9c57e48839177481004314073351bd') in 0.052795 seconds 
-  Import took 0.067172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000705 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 1.wav
-  artifactKey: Guid(fd7aa363a188d47858202c3344e3fd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 1.wav using Guid(fd7aa363a188d47858202c3344e3fd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc031511ee327fe32236abf8c762a549') in 0.058987 seconds 
-  Import took 0.069070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Epic Game Hits SFX/Animation Plant Pop Up.wav
-  artifactKey: Guid(4f37d6c293cef4472954b7786b392c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Animation Plant Pop Up.wav using Guid(4f37d6c293cef4472954b7786b392c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4841dd79475ac7256da694984aa31e2e') in 0.058880 seconds 
-  Import took 0.068152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/Epic Game Hits SFX/UI Hits Game 1.wav
-  artifactKey: Guid(19e11c8cc39c64095b9945f6492fd1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/UI Hits Game 1.wav using Guid(19e11c8cc39c64095b9945f6492fd1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d396e527a812b5d9fb9405114d33f0') in 0.043485 seconds 
-  Import took 0.055577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000640 seconds.
-  path: Assets/Epic Game Hits SFX/UI Hits Game 2.wav
-  artifactKey: Guid(3ae90d98e85794790ade60545c231868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/UI Hits Game 2.wav using Guid(3ae90d98e85794790ade60545c231868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b08f92dc2cbdf567574a87c26c5d4f') in 0.041283 seconds 
-  Import took 0.050833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/Epic Game Hits SFX/Accpet invite.wav
-  artifactKey: Guid(cfe159e00034e4ec598c9fa31faaff78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Accpet invite.wav using Guid(cfe159e00034e4ec598c9fa31faaff78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45967519495a5f1c546bf0e2432ee89b') in 0.040312 seconds 
-  Import took 0.051172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000554 seconds.
-  path: Assets/Epic Game Hits SFX/Random Game Sound 2.wav
-  artifactKey: Guid(21ed69872559a489dbeee5f83b3ba243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Random Game Sound 2.wav using Guid(21ed69872559a489dbeee5f83b3ba243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3032ada0cc57cfb0cb2af5fa8dc4b72') in 0.060300 seconds 
-  Import took 0.070818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000748 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 8.wav
-  artifactKey: Guid(0f1ebbbb6cadd4a249e74f07289c1578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 8.wav using Guid(0f1ebbbb6cadd4a249e74f07289c1578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e6de35eb0b83a4f27869e69b3c3d69') in 0.058311 seconds 
-  Import took 0.070763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001078 seconds.
-  path: Assets/Epic Game Hits SFX/Tribal Jungle Game Item Pick Up.wav
-  artifactKey: Guid(7c42dc7b6ca7c455d81e87276ceb903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Tribal Jungle Game Item Pick Up.wav using Guid(7c42dc7b6ca7c455d81e87276ceb903b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aadb01a3c765da9eb4c2714b0a00173') in 0.055967 seconds 
-  Import took 0.067560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/Epic Game Hits SFX/Organice Ice Next Page Slide Transition 2.wav
-  artifactKey: Guid(e8a27091901014e3bb7a1944a03921fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Organice Ice Next Page Slide Transition 2.wav using Guid(e8a27091901014e3bb7a1944a03921fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf37dbae8bec525fadd7d4994b65e31') in 0.053235 seconds 
-  Import took 0.065502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000605 seconds.
-  path: Assets/Epic Game Hits SFX/UI Hits Game 3.wav
-  artifactKey: Guid(5dd35847d8fb047d3ae0bc9a78fe6a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/UI Hits Game 3.wav using Guid(5dd35847d8fb047d3ae0bc9a78fe6a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109c22d0289a2297b3d908bd8b2b70b6') in 0.053325 seconds 
-  Import took 0.065884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 6.wav
-  artifactKey: Guid(18ac99afb19fb43ae98e2652a1a20444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 6.wav using Guid(18ac99afb19fb43ae98e2652a1a20444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6717a1f548f95b89fdb204703f1d94') in 0.054110 seconds 
-  Import took 0.065092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000623 seconds.
-  path: Assets/Epic Game Hits SFX/Random Game Sound 3.wav
-  artifactKey: Guid(bb7768bce84614731a9d7c4ecab9e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Random Game Sound 3.wav using Guid(bb7768bce84614731a9d7c4ecab9e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30dada0d804e04ced3cd91353bbf3e1') in 0.057376 seconds 
-  Import took 0.068993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 5.wav
-  artifactKey: Guid(56fcd0d3871574eeba610b7ce680192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 5.wav using Guid(56fcd0d3871574eeba610b7ce680192c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca844454ac01ae5b1f2a8ae0a3bb768b') in 0.059090 seconds 
-  Import took 0.070141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000817 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 7.wav
-  artifactKey: Guid(0c467fa94839d49dc9d4446c7352bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 7.wav using Guid(0c467fa94839d49dc9d4446c7352bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26267d642c024636d0c4d66c927eecae') in 0.062415 seconds 
-  Import took 0.071831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000957 seconds.
-  path: Assets/Epic Game Hits SFX/Mech Game Item hit 16.wav
-  artifactKey: Guid(2feb4a903195d4f7bb4bf90918c0ae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Mech Game Item hit 16.wav using Guid(2feb4a903195d4f7bb4bf90918c0ae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd368ecabb60618a96febb39238d558c') in 0.065918 seconds 
-  Import took 0.076753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/Epic Game Hits SFX/Hi Tech Game Pick Up.wav
-  artifactKey: Guid(68378f764d6b3426fb75496eeb422abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Hi Tech Game Pick Up.wav using Guid(68378f764d6b3426fb75496eeb422abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8996d6ae72172a4aca4bbb8e695b76c9') in 0.050069 seconds 
-  Import took 0.062682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 4.wav
-  artifactKey: Guid(687950f8997e44d38848b27edf9af400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Arcade Creature Hit Pop 4.wav using Guid(687950f8997e44d38848b27edf9af400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e01764c02531d5759d02ece13d70003') in 0.051254 seconds 
-  Import took 0.062388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000517 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 2.wav
-  artifactKey: Guid(a3c97c218c73a499eae69f1ecad3fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 2.wav using Guid(a3c97c218c73a499eae69f1ecad3fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4a318a90c6daf356162831c6a193e3') in 0.056428 seconds 
-  Import took 0.068521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Epic Game Hits SFX/Arcade Casino Mix Sound.wav
-  artifactKey: Guid(3aa3ab3c3d5f24f4da6be38fa605a5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Arcade Casino Mix Sound.wav using Guid(3aa3ab3c3d5f24f4da6be38fa605a5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296ff84f9711a88377e13eefb29d9b9b') in 0.055034 seconds 
-  Import took 0.065370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/Epic Game Hits SFX/Robot Servo UI.wav
-  artifactKey: Guid(0b03e8b58b9f64381bfc412fd721453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Robot Servo UI.wav using Guid(0b03e8b58b9f64381bfc412fd721453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12451ac81602710744bbf55b2ee2c41') in 0.063445 seconds 
-  Import took 0.073456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000722 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 5.wav
-  artifactKey: Guid(e96c2938af2dd42b0ae7d2e3a765f598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 5.wav using Guid(e96c2938af2dd42b0ae7d2e3a765f598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfba414e1dd89cf0913592cce8dc4d3') in 0.049425 seconds 
-  Import took 0.059712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000573 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 7.wav
-  artifactKey: Guid(28078bb98948447a5a0756690bca1e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 7.wav using Guid(28078bb98948447a5a0756690bca1e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353fd2b7407e1ccfe00dfe809fc58cc7') in 0.049513 seconds 
-  Import took 0.060030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000699 seconds.
-  path: Assets/Epic Game Hits SFX/Repair vehicle.wav
-  artifactKey: Guid(29f1578b1dd644bc68d3b0e95fc5fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Repair vehicle.wav using Guid(29f1578b1dd644bc68d3b0e95fc5fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1031397a5a4acd7d9eb257169c6ab42') in 0.054248 seconds 
-  Import took 0.064553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 11.wav
-  artifactKey: Guid(77ea6813eafb24218955eb3a26fe40fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 11.wav using Guid(77ea6813eafb24218955eb3a26fe40fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45265e276d7db26df8b245cb701b37c') in 0.042205 seconds 
-  Import took 0.051836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 9.wav
-  artifactKey: Guid(cc88f3bca5cb948e79ed39280d25cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 9.wav using Guid(cc88f3bca5cb948e79ed39280d25cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e21ebe209ee14a02a57c671df94fc81') in 0.048220 seconds 
-  Import took 0.058659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/Epic Game Hits SFX/Play Game Mech Hit 1.wav
-  artifactKey: Guid(7c5bed0ebc2824c6ab624dd1c3e4d320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Play Game Mech Hit 1.wav using Guid(7c5bed0ebc2824c6ab624dd1c3e4d320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720e91b41066075ceac58340b506e06f') in 0.043607 seconds 
-  Import took 0.052901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 8.wav
-  artifactKey: Guid(84526fd995a20401fa0c0fccf653c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy or Skill UI Sound 8.wav using Guid(84526fd995a20401fa0c0fccf653c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fb64807c71b1d5a1643799fcffa5dc') in 0.043173 seconds 
-  Import took 0.056360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/Epic Game Hits SFX/Recharge Energy2.wav
-  artifactKey: Guid(104d3de4bc4804e89a6bdeb489998ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Recharge Energy2.wav using Guid(104d3de4bc4804e89a6bdeb489998ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5c327f41c151963575b8ebe4bfe813') in 0.042724 seconds 
-  Import took 0.051299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Epic Game Hits SFX/UI Hits Game 4.wav
-  artifactKey: Guid(2cb82883501014552993fdb5a327af24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/UI Hits Game 4.wav using Guid(2cb82883501014552993fdb5a327af24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7224224b755a6ccb6a8d55edfe384cd8') in 0.033721 seconds 
-  Import took 0.041596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.708929 seconds.
-  path: Assets/Epic Game Hits SFX/UI Hits Game3.wav
-  artifactKey: Guid(1219e8aa13fb04f538c35b8d080bbc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/UI Hits Game3.wav using Guid(1219e8aa13fb04f538c35b8d080bbc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b2afd44bf054245746fee215b88819') in 0.033652 seconds 
-  Import took 0.040594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Epic Game Hits SFX/Wooden Game Item Hit.wav
-  artifactKey: Guid(5da85ce3a68a74105b8298eb64c11e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/Wooden Game Item Hit.wav using Guid(5da85ce3a68a74105b8298eb64c11e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f31218e859d49e9b98658934f816244') in 0.027819 seconds 
-  Import took 0.035554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/Epic Game Hits SFX/UI Hits Game4.wav
-  artifactKey: Guid(fe79a296241334099b9622427a36a916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/UI Hits Game4.wav using Guid(fe79a296241334099b9622427a36a916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fb0caf5dc5dcddd6835fc50b7ef466') in 0.051393 seconds 
-  Import took 0.060380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.586289 seconds.
-  path: Assets/Epic Game Hits SFX/About Sounds-  Read Me.rtf
-  artifactKey: Guid(6703c507e07ca45ac96da7db01fb3776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/About Sounds-  Read Me.rtf using Guid(6703c507e07ca45ac96da7db01fb3776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c027da965b2aa1539b3d0bf4c9a1bc27') in 0.054909 seconds 
-  Import took 0.074980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.084901 seconds.
-  path: Assets/SampleScenes/Models/Pickup.fbx
-  artifactKey: Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleScenes/Models/Pickup.fbx using Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91798c98fa44b321ee1f1e258881699') in 0.348145 seconds 
-  Import took 0.363729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000639 seconds.
-  path: Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx
-  artifactKey: Guid(00718395eefb6084bb25555f962f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx using Guid(00718395eefb6084bb25555f962f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d9d19805981f0415c11469fc03ffc6') in 0.100609 seconds 
-  Import took 0.109675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.304569 seconds.
-  path: Assets/Epic Game Hits SFX/poster pick up.wav
-  artifactKey: Guid(560b59f7bba57425da9d11fb4794b676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Game Hits SFX/poster pick up.wav using Guid(560b59f7bba57425da9d11fb4794b676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1530cd8da7918996d3a184aff95fcb19') in 0.041825 seconds 
-  Import took 0.050008 seconds .
-
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Poster 2.prefab
+  artifactKey: Guid(925a77db462c37841aaaf1745aa2220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Poster 2.prefab using Guid(925a77db462c37841aaaf1745aa2220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26660c2d725541fe07c3cd8c664cfe0e') in 0.014622 seconds 
+  Import took 0.019167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/New Terrain 4.asset
+  artifactKey: Guid(a535a4e46d57d4b4f9da84e4ebf80c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 4.asset using Guid(a535a4e46d57d4b4f9da84e4ebf80c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5b5ea58f43929339cb874e30d2b540') in 0.026054 seconds 
+  Import took 0.032342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Onedirection poster 1.jpg
+  artifactKey: Guid(47575b121d5cb2e44a3e9a7ea81b32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Onedirection poster 1.jpg using Guid(47575b121d5cb2e44a3e9a7ea81b32b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f3dd63ad33456605b5cefb88caf419') in 0.058098 seconds 
+  Import took 0.063050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(4b2adcbbb4f32de498eb5db9385af0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(4b2adcbbb4f32de498eb5db9385af0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e54be0939bbaad1593d78e76cc3866a') in 0.105155 seconds 
+  Import took 0.110837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Poster.prefab
+  artifactKey: Guid(396417aca4e531d468223c378427a518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Poster.prefab using Guid(396417aca4e531d468223c378427a518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f403da9fc42d000db998eb5d162d325') in 0.015838 seconds 
+  Import took 0.020583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Onedirection poster.jpg
+  artifactKey: Guid(d72479ed17108b5488e3fcdff8e449b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Onedirection poster.jpg using Guid(d72479ed17108b5488e3fcdff8e449b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268516b55bb76dbf2d999eac4e9815ce') in 0.068688 seconds 
+  Import took 0.073773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.699743 seconds.
+  path: Assets/Scenes/SwimDemo.scenetemplate
+  artifactKey: Guid(26343fb5b92da3944ab96dfa25611bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SwimDemo.scenetemplate using Guid(26343fb5b92da3944ab96dfa25611bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef017e4d7d6c748545a8d3b54c53172') in 0.118025 seconds 
+  Import took 0.124682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.120105 seconds.
+  path: Assets/Scenes/Fantasy World!.unity
+  artifactKey: Guid(c84b6975c916bee49ad734553779fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fantasy World!.unity using Guid(c84b6975c916bee49ad734553779fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c588ba0f18069f8b9e95768755a0dc') in 0.010554 seconds 
+  Import took 0.015941 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1734ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (739ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (643ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 3.671100 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.819700 ms  DeleteObjects: 0.468400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1772ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1550ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (865ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2807.
+Total: 4.942100 ms (FindLiveObjects: 0.457900 ms CreateObjectMapping: 0.274400 ms MarkObjects: 3.623300 ms  DeleteObjects: 0.585500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1552ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1330ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (724ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2809.
+Total: 5.767200 ms (FindLiveObjects: 0.721900 ms CreateObjectMapping: 0.388400 ms MarkObjects: 4.062400 ms  DeleteObjects: 0.592300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1302ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (678ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (583ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2811.
+Total: 3.982400 ms (FindLiveObjects: 0.230300 ms CreateObjectMapping: 0.095500 ms MarkObjects: 3.036200 ms  DeleteObjects: 0.619700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
