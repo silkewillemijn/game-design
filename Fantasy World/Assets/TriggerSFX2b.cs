@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TriggerSFX2b : MonoBehaviour
 {
-    public AudioSource girlVoice1;
+    public AudioSource girlVoice2b;
+    public AudioSource girlVoice2a;
     GameObject girl;
     GameObject player;
     GameObject posterpiece;
@@ -18,7 +19,9 @@ public class TriggerSFX2b : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other) {
-        girlVoice1.Play();
+        // if (!girlVoice2a.isPlaying) { // zorg dat audio niet overlapt
+        girlVoice2b.Play();
+        // }
     }
 
     void playVanishingSound() {
@@ -38,7 +41,7 @@ public class TriggerSFX2b : MonoBehaviour
 
             var distance = Vector3.Distance(girl.transform.position, player.transform.position);
 
-            if (!girlVoice1.isPlaying && distance < 5) {
+            if (!girlVoice2b.isPlaying && distance < 5) {
                 playVanishingSound();
                 //1 sec delay..?
                 girl.SetActive(false);
