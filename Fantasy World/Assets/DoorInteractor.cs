@@ -20,7 +20,7 @@ public class DoorInteractor : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance) && hit.collider.gameObject.CompareTag("Door"))
         {
 
-            //if (Input.GetKeyDown(KeyCode.Space))
+            //if (Input.GetKeyDown(KeyCode.Enter))
             //{
             hitDoor = true;
             //}
