@@ -15,7 +15,10 @@ public class ObjectsToCollect : MonoBehaviour
     void OnTriggerEnter(Collider plyr)
     {
         if (plyr.gameObject.tag == "Player")
+        {
             objects--;
+            //play sound
+        }
         gameObject.SetActive(false);
     }
 }
