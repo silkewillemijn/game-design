@@ -318,7 +318,7 @@ Transform:
   m_LocalScale: {x: 0.3758269, y: 0.037582688, z: 0.3758269}
   m_Children: []
   m_Father: {fileID: 567799332}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!114 &883221
 MonoBehaviour:
@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2935829d1641a7849a93cc236ddc3ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  girlvoice2: {fileID: 0}
 --- !u!1 &27876307
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,7 +423,7 @@ GameObject:
   - component: {fileID: 59565388}
   - component: {fileID: 59565389}
   m_Layer: 0
-  m_Name: daugherVoice1
+  m_Name: daughterVoice1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1535,6 +1536,7 @@ Transform:
   m_Children:
   - {fileID: 1465158237}
   - {fileID: 2101319732}
+  - {fileID: 1608376884}
   - {fileID: 883220}
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -2031,7 +2033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &879442301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2637,7 +2639,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21620
+  m_Name: pb_Mesh19314
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3191,6 +3193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2935829d1641a7849a93cc236ddc3ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  girlvoice2: {fileID: 1608376885}
 --- !u!1 &1524060121
 GameObject:
   m_ObjectHideFlags: 0
@@ -3250,11 +3253,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608376883}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.21, y: 2.8281631, z: -2.93}
+  m_LocalPosition: {x: 17.799927, y: 5.868164, z: 80.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1764221310}
-  m_RootOrder: 3
+  m_Father: {fileID: 567799332}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1608376885
 AudioSource:
@@ -3270,7 +3273,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3519,7 +3522,6 @@ Transform:
   - {fileID: 567018315}
   - {fileID: 879442305}
   - {fileID: 1896830780}
-  - {fileID: 1608376884}
   - {fileID: 1895818767}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -4108,7 +4110,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1764221310}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1895818768
 AudioSource:
@@ -4225,7 +4227,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1896830776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4238,7 +4240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66213d659ce3f446a043d3b8b762244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  girlVoice1: {fileID: 1895818768}
+  girlVoice2b: {fileID: 0}
+  girlVoice2a: {fileID: 0}
 --- !u!135 &1896830777
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4897,7 +4900,17 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: VanishingSound
     clip: {fileID: 8300000, guid: f9f6c2e3e8b104f46a9e2a89fcb25927, type: 3}
-    volume: 0.806
+    volume: 0.336
+    volumeVariance: 0.681
+    pitch: 1
+    pitchVariance: 0
+    spatialBlend: 0.205
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: PickingUpPoster
+    clip: {fileID: 8300000, guid: 560b59f7bba57425da9d11fb4794b676, type: 3}
+    volume: 0.822
     volumeVariance: 0.081
     pitch: 1
     pitchVariance: 0
@@ -5116,6 +5129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2935829d1641a7849a93cc236ddc3ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  girlvoice2: {fileID: 0}
 --- !u!1001 &2123428934
 PrefabInstance:
   m_ObjectHideFlags: 0

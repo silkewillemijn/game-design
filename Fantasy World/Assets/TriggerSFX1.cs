@@ -8,17 +8,21 @@ public class TriggerSFX1 : MonoBehaviour
     GameObject girl;
     GameObject player;
     GameObject posterpiece;
+    GameObject voiceSound;
 
     void Start()
     {
         girl = GameObject.Find("AGIA_anime_girl");
         player = GameObject.Find("First Person Player");
         posterpiece = GameObject.Find("Poster 1");
+        voiceSound = GameObject.Find("daughterVoice1");
         posterpiece.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other) {
-        girlVoice1.Play();
+        if (voiceSound.activeInHierarchy == true) {
+            girlVoice1.Play();
+        }
     }
 
     void playVanishingSound() {
@@ -43,6 +47,7 @@ public class TriggerSFX1 : MonoBehaviour
                 //1 sec delay..?
                 girl.SetActive(false);
                 posterpiece.SetActive(true);
+                voiceSound.SetActive(false);
             }
         }
 
