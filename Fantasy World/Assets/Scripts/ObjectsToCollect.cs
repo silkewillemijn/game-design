@@ -37,6 +37,8 @@ public class ObjectsToCollect : MonoBehaviour
 
             //stop previous one?
             girlvoice2.loop = false;
+            StartCoroutine(FadeAudioSource.StartFade(girlvoice2, 3, 0)); //doesn't work yet...
+
         }
         
         gameObject.SetActive(false);
