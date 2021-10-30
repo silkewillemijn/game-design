@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectsToCollect : MonoBehaviour
 {
     public static int objects = 0;
+    public AudioSource girlvoice1;
     public AudioSource girlvoice2;
     public AudioSource girlvoice3;
     
@@ -33,8 +34,13 @@ public class ObjectsToCollect : MonoBehaviour
         }
         
         if (gameObject == GameObject.Find("Poster 1")) { // and stop playing if next piece is collected and next sound starts?
-            PlayGirlVoiceTwo(); 
-            Debug.Log("poster 1 collected");
+            //stop previous audio
+            girlvoice1.loop = false;
+            girlvoice1.volume = 0;
+            
+            // play second audioclip...
+            PlayGirlVoiceTwo();
+            
         }
 
         if (gameObject == GameObject.Find("Poster 2")) { // and stop playing if next piece is collected and next sound starts?
