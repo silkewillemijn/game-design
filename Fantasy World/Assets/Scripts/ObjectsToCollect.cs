@@ -6,6 +6,7 @@ public class ObjectsToCollect : MonoBehaviour
 {
     public static int objects = 0;
     public AudioSource girlvoice2;
+    public AudioSource girlvoice3;
     
 
     // Use this for initialization
@@ -15,8 +16,12 @@ public class ObjectsToCollect : MonoBehaviour
     }
 
     // Play the next audio track of the daughters' voice
-    void PlayGirlVoice() {
+    void PlayGirlVoiceTwo() {
         girlvoice2.Play();
+    }
+
+    void PlayGirlVoiceThree() {
+        girlvoice3.Play();
     }
     
     // Update is called once per frame
@@ -28,16 +33,22 @@ public class ObjectsToCollect : MonoBehaviour
         }
         
         if (gameObject == GameObject.Find("Poster 1")) { // and stop playing if next piece is collected and next sound starts?
-            PlayGirlVoice(); 
+            PlayGirlVoiceTwo(); 
             Debug.Log("poster 1 collected");
         }
 
         if (gameObject == GameObject.Find("Poster 2")) { // and stop playing if next piece is collected and next sound starts?
-            // play second audioclip...
-
-            //stop previous one?
+            //stop previous audio
             girlvoice2.loop = false;
             girlvoice2.volume = 0;
+
+            // play second audioclip...
+            PlayGirlVoiceThree();
+        }
+
+        if (gameObject == GameObject.Find("Poster 3")) {
+            girlvoice3.loop = false;
+            girlvoice3.volume = 0;
         }
         
         gameObject.SetActive(false);
