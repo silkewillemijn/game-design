@@ -7,7 +7,6 @@ public class DaughterMovement : MonoBehaviour
     Animator animator;
     GameObject girl;
     GameObject player;
-    public AudioSource playVoice1;
     
     // Start is called before the first frame update
     void Start()

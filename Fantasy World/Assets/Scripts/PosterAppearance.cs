@@ -2,26 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerSFX1 : MonoBehaviour
+public class PosterAppearance : MonoBehaviour
 {
-    public AudioSource girlVoice1;
     GameObject girl;
     GameObject player;
     GameObject posterpiece;
-    GameObject voiceSound;
 
     void Start()
     {
-        girl = GameObject.Find("AGIA_anime_girl");
+        girl = this.gameObject;
         player = GameObject.Find("First Person Player");
+        
         posterpiece = GameObject.Find("Poster 1");
-        voiceSound = GameObject.Find("daughterVoice1");
-        posterpiece.SetActive(false);
-    }
-
-    void OnTriggerEnter(Collider other) {
-        if (voiceSound.activeInHierarchy == true) {
-            girlVoice1.Play();
+        if (posterpiece.activeInHierarchy == true) { 
+            posterpiece.SetActive(false);
         }
     }
 
@@ -29,25 +23,17 @@ public class TriggerSFX1 : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("VanishingSound");
     }
 
-    // IEnumerator ExecuteAfterTime(float time)
-    // {
-    //     yield return new WaitForSeconds(time);
-    //     girl.SetActive(false);
-    //     posterpiece.SetActive(true);
-    // }
-
     void Update() {
         // if distance between player en girl is smaller than 5, let her disappear
         if (girl.activeInHierarchy == true) {
 
             var distance = Vector3.Distance(girl.transform.position, player.transform.position);
 
-            if (!girlVoice1.isPlaying && distance < 5) {
+            if (distance < 8) {
                 playVanishingSound();
                 //1 sec delay..?
                 girl.SetActive(false);
                 posterpiece.SetActive(true);
-                voiceSound.SetActive(false);
             }
         }
 
