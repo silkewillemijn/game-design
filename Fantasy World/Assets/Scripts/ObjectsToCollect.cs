@@ -28,7 +28,7 @@ public class ObjectsToCollect : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter(Collider plyr)
     {
-        if (plyr.gameObject.tag == "First Person Player")
+        if (plyr.gameObject.tag == "Player")
         {
             objects--;
         }

@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 6225838295874644625}
   m_Layer: 0
   m_Name: First Person Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,6 +164,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 6225838295874644639}
   speed: 12
+  gravity: -9.81
+  groundCheck: {fileID: 0}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &6225838296055293810
 GameObject:
   m_ObjectHideFlags: 0
