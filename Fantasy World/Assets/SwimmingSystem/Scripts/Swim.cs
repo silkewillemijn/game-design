@@ -152,7 +152,7 @@ namespace Assets.SwimmingSystem.Scripts
 
             Vector3 mv = MoveDir;
 
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKey(KeyCode.Space))
             {
                 // go upwards
                 if (_camera.gameObject.transform.position.y < _waterSurfacePosY + _aboveWaterTolerance)
