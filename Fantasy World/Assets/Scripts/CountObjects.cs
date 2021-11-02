@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CountObjects : MonoBehaviour
 {
     public string nextLevel;
-    public GameObject objToDestroy;
+    //public GameObject objToDestroy;
     GameObject objUI;
     // Use this for initialization
     void Start()

@@ -3222,6 +3222,7 @@ GameObject:
   - component: {fileID: 1690590067}
   - component: {fileID: 1690590066}
   - component: {fileID: 1690590065}
+  - component: {fileID: 1690590069}
   - component: {fileID: 1690590068}
   m_Layer: 0
   m_Name: EventSystem
@@ -3288,6 +3289,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98bca83297072d8459db2ba059d6faad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1690590069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690590064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d3ae8ecba378946b5a6d0a35cbb9fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevel: Room
