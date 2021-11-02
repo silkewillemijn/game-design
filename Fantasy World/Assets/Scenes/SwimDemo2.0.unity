@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.6405869, g: 0.59254205, b: 0.49019426, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2738,6 +2738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ac3bd4a5cc1644900707d01ddf4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorSound: {fileID: 0}
 --- !u!1001 &1002482088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2911,7 +2912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022334718}
   m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
-  m_LocalPosition: {x: 252, y: 256, z: -112}
+  m_LocalPosition: {x: 252, y: -402, z: -112}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6440,8 +6441,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809946069}
-  m_LocalRotation: {x: -0.1789208, y: 0.15190846, z: 0.027968962, w: 0.971663}
-  m_LocalPosition: {x: 90.085754, y: -627.9655, z: -778.9341}
+  m_LocalRotation: {x: -0.12494837, y: 0.62744325, z: 0.10292692, w: 0.7616489}
+  m_LocalPosition: {x: -836.7699, y: -575.2117, z: 239.26688}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
