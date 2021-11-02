@@ -776,3 +776,20 @@ Received Import Request.
 Start importing Assets/University Mug Wrap/Materials/atm-texas 1.mat using Guid(92f0de3455a8c2d4b8fd52c5d81e6960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f8d86e3fe94be22c947f1cdedf1029') in 0.085041 seconds 
   Import took 0.090332 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1554.449744 seconds.
+  path: Assets/uh huston.mat
+  artifactKey: Guid(7e25f7df477bed148997f829aa7d489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uh huston.mat using Guid(7e25f7df477bed148997f829aa7d489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8459b2361a99015c432ac063e8801109') in 0.018475 seconds 
+  Import took 0.024435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.468497 seconds.
+  path: Assets/uh houston.jfif
+  artifactKey: Guid(a3e0d058b6cf6cd44b99c8255d01efb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uh houston.jfif using Guid(a3e0d058b6cf6cd44b99c8255d01efb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13561bcc47f0bcde67602f7075e2e90') in 0.010945 seconds 
+  Import took 0.015589 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
