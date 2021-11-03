@@ -11,10 +11,10 @@ public class ObjectsToCollect : MonoBehaviour
     
 
     // Use this for initialization
-    void Awake()
-    {
-        objects++;
-    }
+    // void Awake()
+    // {
+    //     objects++;
+    // }
 
     // Play the next audio track of the daughters' voice
     void PlayGirlVoiceTwo() {
@@ -30,7 +30,7 @@ public class ObjectsToCollect : MonoBehaviour
     {
         if (plyr.gameObject.tag == "Player")
         {
-            objects--;
+            objects++;
         }
         
         if (gameObject == GameObject.Find("Poster 1")) { // and stop playing if next piece is collected and next sound starts?

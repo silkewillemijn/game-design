@@ -16,8 +16,8 @@ public class CountObjects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        objUI.GetComponent<Text>().text = ObjectsToCollect.objects.ToString();
-        if (ObjectsToCollect.objects == 0)
+        objUI.GetComponent<Text>().text = ObjectsToCollect.objects.ToString() + " / 3";
+        if (ObjectsToCollect.objects == 3)
         {
             Application.LoadLevel(nextLevel);
             //Destroy(objToDestroy);
